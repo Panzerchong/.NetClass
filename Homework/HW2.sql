@@ -135,56 +135,120 @@ ORDER BY quantities DESC
 
 
 --17.List all city names and number of customers in that city.    
-
-
+SELECT City,COUNT(*) AS NumberOfCustomers
+FROM Customers
+GROUP BY City
+ORDER BY NumberOfCustomers DESC
 
 
 --18.List city names which have more than 2 customers, and number of customers in that city
 
+SELECT City,COUNT(*) AS NumberOfCustomers
+FROM Customers
+GROUP BY City
+HAVING COUNT(City)>2
+ORDER BY NumberOfCustomers DESC
 
 
 --19.List the names of customers who placed orders after 1/1/98 with order date.
-
+SELECT c.CompanyName,MIN(o.OrderDate) AS OldestOrder
+FROM Customers AS c
+INNER JOIN Orders AS o
+ON c.CustomerID=o.CustomerID
+WHERE o.OrderDate >'1998-1-1'
+GROUP BY c.CompanyName
 
 
 --20.List the names of all customers with most recent order dates
-
-
+SELECT temp.CompanyName,temp.OrderDate
+FROM(
+	SELECT  c.CompanyName,o.OrderDate,
+	RANK() over (partition by c.CompanyName order by o.orderDate desc) as [rank]
+	FROM Customers AS c
+	LEFT JOIN Orders AS o
+	ON c.CustomerID=o.CustomerID
+) AS temp
+WHERE temp.[rank]=1
 
 
 --21.Display the names of all customers  along with the  count of products they bought
-
+SELECT c.CustomerID,c.CompanyName,ISNULL(SUM(od.Quantity),0) AS ProductsCount
+FROM Orders o
+INNER JOIN [Order Details] od
+on o.OrderID=od.OrderID
+RIGHT JOIN Customers c
+on c.CustomerID=o.CustomerID
+GROUP BY c.CompanyName,c.CustomerID
 
 
 --22.Display the customer ids who bought more than 100 Products with count of products.
+--subquery
+SELECT *
+FROM(
+SELECT o.CustomerID,SUM(od.quantity) AS ProductsCount
+FROM Orders o
+INNER JOIN [Order Details] od
+on o.OrderID=od.OrderID
+GROUP BY o.CustomerID
+) AS temp
+WHERE ProductsCount >100
 
-
-
+--cte
+WITH cte AS(
+	SELECT o.CustomerID,SUM(od.quantity) AS [Products Count]
+	FROM Orders o
+	INNER JOIN [Order Details] od
+	on o.OrderID=od.OrderID
+	GROUP BY o.CustomerID
+)
+SELECT * 
+FROM cte
+WHERE [Products Count] >100
 
 --23.Show all the possible combinations of suppliers and shippers, representing every way a supplier can ship its products.
-	The result should display two columns:
-
-	Supplier CompanyName， Shipper CompanyName
-
-
-
+	-- The result should display two columns:
+	-- Supplier CompanyName， Shipper CompanyName
+SELECT s.CompanyName AS [Supplier CompanyName],sh.CompanyName AS [Shipper CompanyName]  
+FROM Suppliers s
+CROSS JOIN Shippers sh
 
 --24.Display the products order each day. Show Order date and Product Name.
-
-
+SELECT o.orderDate,p.ProductName
+FROM Orders o
+INNER JOIN [Order Details] od
+on od.OrderID=o.OrderID
+INNER JOIN Products p
+ON p.ProductID=od.ProductID
+ORDER BY o.OrderDate,p.ProductName
 
 
 --25.Displays pairs of employees who have the same job title.
-
-
+SELECT e1.FirstName+' '+e1.LastName AS name1, e2.FirstName+' '+e2.LastName AS name2,e1.Title
+FROM Employees e1
+INNER JOIN Employees e2
+on e1.Title=e2.Title AND e1.EmployeeID < e2.EmployeeID --remove duplicate
 
 
 --26.Display all the Managers who have more than 2 employees reporting to them.
 
-
+SELECT ManagerID,e.FirstName+' '+e.LastName AS Manager
+FROM(
+SELECT m.ReportsTo AS ManagerID, COUNT(m.ReportsTo) as reportcount
+FROM Employees m
+GROUP BY m.ReportsTo
+HAVING COUNT(m.ReportsTo) >2
+) AS temp
+INNER JOIN Employees e
+ON ManagerID=e.EmployeeID
 
 
 --27.List all customers and suppliers together, grouped by city.
-The result should display the following columns:
+-- The result should display the following columns:
+-- City，CompanyName，ContactName，Type (indicating whether the record is a Customer or a Supplier).
 
-City，CompanyName，ContactName，Type (indicating whether the record is a Customer or a Supplier).
+SELECT c.city,c.CompanyName,c.ContactName,'Customer' AS Type
+FROM Customers c
+UNION
+SELECT s.city,s.CompanyName,s.ContactName,'Supplier' AS Type
+FROM Suppliers s
+ORDER BY c.City,c.CompanyName
