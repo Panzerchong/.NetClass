@@ -1,0 +1,16 @@
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\bin\Debug\net8.0\Infrasturcture.deps.json
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\bin\Debug\net8.0\Infrasturcture.dll
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\bin\Debug\net8.0\Infrasturcture.pdb
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\bin\Debug\net8.0\ApplicationCore.dll
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\bin\Debug\net8.0\ApplicationCore.pdb
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.csproj.AssemblyReference.cache
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.AssemblyInfoInputs.cache
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.AssemblyInfo.cs
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.csproj.CoreCompileInputs.cache
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.sourcelink.json
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrastu.B4844EC0.Up2Date
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.dll
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\refint\Infrasturcture.dll
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.pdb
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\ref\Infrasturcture.dll
