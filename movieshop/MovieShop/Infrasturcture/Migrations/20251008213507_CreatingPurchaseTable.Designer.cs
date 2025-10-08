@@ -4,6 +4,7 @@ using Infrasturcture.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrasturcture.Migrations
 {
     [DbContext(typeof(MovieShopDbContext))]
-    partial class MovieShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251008213507_CreatingPurchaseTable")]
+    partial class CreatingPurchaseTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -334,24 +337,6 @@ namespace Infrasturcture.Migrations
                     b.ToTable("Review", (string)null);
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Role", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Role");
-                });
-
             modelBuilder.Entity("ApplicationCore.Entities.Trailer", b =>
                 {
                     b.Property<int>("Id")
@@ -433,21 +418,6 @@ namespace Infrasturcture.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("User", (string)null);
-                });
-
-            modelBuilder.Entity("ApplicationCore.Entities.UserRole", b =>
-                {
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("RoleId")
-                        .HasColumnType("int");
-
-                    b.HasKey("UserId", "RoleId");
-
-                    b.HasIndex("RoleId");
-
-                    b.ToTable("UserRole", (string)null);
                 });
 
             modelBuilder.Entity("ApplicationCore.Entities.Favorites", b =>
@@ -583,25 +553,6 @@ namespace Infrasturcture.Migrations
                     b.Navigation("Movie");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.UserRole", b =>
-                {
-                    b.HasOne("ApplicationCore.Entities.Role", "Role")
-                        .WithMany("UsersOfRole")
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("ApplicationCore.Entities.User", "User")
-                        .WithMany("RolesOfUser")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Role");
-
-                    b.Navigation("User");
-                });
-
             modelBuilder.Entity("ApplicationCore.Entities.Genre", b =>
                 {
                     b.Navigation("MoviesOfGenre");
@@ -634,11 +585,6 @@ namespace Infrasturcture.Migrations
                     b.Navigation("MoviesOfCrew");
                 });
 
-            modelBuilder.Entity("ApplicationCore.Entities.Role", b =>
-                {
-                    b.Navigation("UsersOfRole");
-                });
-
             modelBuilder.Entity("ApplicationCore.Entities.User", b =>
                 {
                     b.Navigation("FavoriteMovies");
@@ -646,8 +592,6 @@ namespace Infrasturcture.Migrations
                     b.Navigation("PurchaseMovies");
 
                     b.Navigation("Reviews");
-
-                    b.Navigation("RolesOfUser");
                 });
 #pragma warning restore 612, 618
         }

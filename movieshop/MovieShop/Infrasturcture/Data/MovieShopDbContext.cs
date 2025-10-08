@@ -22,6 +22,10 @@ namespace Infrasturcture.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Review> Reviews { get; set; }
         public DbSet<Favorites> Favorites { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<UserRole> UserRoles { get; set; }
+
 
 
         public MovieShopDbContext(DbContextOptions<MovieShopDbContext> options) : base(options)
@@ -38,6 +42,7 @@ namespace Infrasturcture.Data
             modelBuilder.Entity<MovieCrew>(ConfigureMovieCrew);
             modelBuilder.Entity<User>(ConfigureUser);
             modelBuilder.Entity<Review>(ConfigureReview);
+            modelBuilder.Entity<UserRole>(ConfigureUserRole);
         }
 
         private void ConfigureMovie(EntityTypeBuilder<Movie> builder)
@@ -97,11 +102,11 @@ namespace Infrasturcture.Data
             builder.Property(r => r.Rating).HasColumnType("decimal(3,2)").IsRequired();
         }
     
-    
-    
-    
-
-
+        private void ConfigureUserRole(EntityTypeBuilder<UserRole> builder)
+        {
+            builder.ToTable("UserRole");
+            builder.HasKey(ur => new { ur.UserId, ur.RoleId });
+        }
 
     }
 }

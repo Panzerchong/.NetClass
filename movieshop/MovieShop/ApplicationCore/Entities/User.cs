@@ -25,7 +25,8 @@ namespace ApplicationCore.Entities
 
         public ICollection<Review> Reviews { get; set; }
         public ICollection<Favorites> FavoriteMovies { get; set; }
-
+        public ICollection<Purchase> PurchaseMovies { get;set; }
+        public ICollection<UserRole> RolesOfUser { get; set; }
 
     }
 }
