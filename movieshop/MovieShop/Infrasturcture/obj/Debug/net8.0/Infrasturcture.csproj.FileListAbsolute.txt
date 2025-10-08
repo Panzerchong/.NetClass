@@ -14,3 +14,5 @@ C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\I
 C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\refint\Infrasturcture.dll
 C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.pdb
 C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\ref\Infrasturcture.dll
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\bin\Debug\net8.0\Infrasturcture.runtimeconfig.json
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\Infrasturcture\obj\Debug\net8.0\Infrasturcture.genruntimeconfig.cache
