@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Contracts.Services;
+﻿using ApplicationCore.Contracts.Repositories;
+using ApplicationCore.Contracts.Services;
 using ApplicationCore.Models;
 using System;
 using System.Collections.Generic;
@@ -10,18 +11,58 @@ namespace Infrasturcture.Services
 {
     public class MovieService: IMovieService
     {
-        public List<MovieCard> Get30HighestGrossingMovies()
+        private readonly IMovieRepository _movieRepository;
+        public MovieService(IMovieRepository movieRepository)
         {
-            var movies = new List<MovieCard>
-            {
-                new MovieCard { Title = "Inception", Id = 1, PosterUrl = "https://image.tmdb.org/t/p/w342/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" },
-                new MovieCard { Title = "Interstellar", Id = 2, PosterUrl = "https://image.tmdb.org/t/p/w342/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" },
-                new MovieCard { Title = "The Dark Knight", Id = 3, PosterUrl = "https://image.tmdb.org/t/p/w342/qJ2tW6WMUDux911r6m7haRef0WH.jpg" },
-                new MovieCard { Title = "Deadpool", Id = 4, PosterUrl = "https://image.tmdb.org/t/p/w342/yGSxMiF0cYuAiyuve5DA6bnWnBw.jpg" },
-                new MovieCard { Title = "The Avengers", Id = 5, PosterUrl = "https://image.tmdb.org/t/p/w342/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg" }
-            };
-            return movies;
+            _movieRepository = movieRepository;
         }
 
+        public List<MovieCard> Get30HighestGrossingMovies()
+        {
+            var movies = _movieRepository.Get30HighestGrossingMovies();
+            var movieCards = new List<MovieCard>();
+            foreach (var movie in movies)
+            {
+                movieCards.Add(new MovieCard { Id=movie.Id,Title=movie.Title,PosterUrl=movie.PosterUrl});
+            }
+
+            return movieCards;
+        }
+
+        public MovieDetailModel GetMovieDetails(int id)
+        {
+            var movie = _movieRepository.GetById(id);
+            var movieDetail=new MovieDetailModel
+            {
+                Id = movie.Id,
+                Title = movie.Title,
+                Overview = movie.Overview,
+                Tagline = movie.Tagline,
+                Budget = movie.Budget,
+                Revenue = movie.Revenue,
+                ImdbUrl = movie.ImdbUrl,
+                TmdbUrl = movie.TmdbUrl,
+                PosterUrl = movie.PosterUrl,
+                BackdropUrl = movie.BackdropUrl,
+                OriginalLanguage = movie.OriginalLanguage,
+                ReleaseDate = movie.ReleaseDate,
+                RunTime = movie.RunTime,
+                Price = movie.Price,
+                Rating = movie.Rating
+            };
+            movieDetail.Trailers=new List<TrailerModel>();
+            foreach (var trailer in movie.Trailers)
+            {
+                movieDetail.Trailers.Add(new TrailerModel { Id = trailer.Id, Name = trailer.Name, TrailerUrl = trailer.TrailerUrl });
+
+            }
+            movieDetail.Genres=new List<GenreModel>();
+            foreach (var genre in movie.GenresOfMovie)
+            {
+                movieDetail.Genres.Add(new GenreModel { Id = genre.GenreId, Name = genre.Genre.Name });
+            }
+
+            return movieDetail;
+        }
     }
 }
