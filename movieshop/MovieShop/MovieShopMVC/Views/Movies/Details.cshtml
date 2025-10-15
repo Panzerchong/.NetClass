@@ -1,7 +1,77 @@
-﻿@model ApplicationCore.Models.MovieDetailModel;
-<h1>
-	@Model.Title
-</h1>
-<h2>
-	@Model.Overview
-</h2>
+﻿@model ApplicationCore.Models.MovieDetailModel
+
+<div class="container">
+    <div class="row">
+		<div class="col-12 col-md-4 col-lg-4 p-0" >
+            <img src="@Model.PosterUrl" alt="@Model.Title" class="img-fluid w-100 h-100 object-fit-cover" />
+		</div>
+
+        <div class="col-12 col-md-8 col-lg-8 p-0 d-flex">
+            <div class="w-100"
+                 style="background-image: url('@Model.BackdropUrl');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;">
+                <div class="overlay-content text-white ps-5 pt-3">
+                    <div class="d-flex align-items-center">
+                        <h3 class="fw-bold me-2 mb-0">@Model.Title</h3>
+                        <button class="btn btn-success btn-sm">@Model.Rating</button>
+                    </div>
+                    
+                    <p>@Model.Tagline</p>
+                    <p>@Model.RunTime m | @Model.ReleaseDate
+                       @foreach(var genre in Model.Genres)
+                        {
+                            <button class="rounded"> @genre.Name</button>
+                        }
+                    </p>
+                    <p>@Model.Overview</p>
+                </div>
+        </div>
+	</div>
+  </div>
+
+  <div class="row">
+        <div class="col-12 col-md-4 col-lg-4 p-0">
+            <h3>Movie Information</h3>
+            <p> Release Date: @Model.ReleaseDate</p>
+            <p>
+                Run Time: <button class="btn-secondary rounded">@Model.RunTime m</button>
+            </p>
+            <p>Budget: @(Model.Budget.HasValue ? "$" + Model.Budget.Value.ToString("N0") : "Unknown")</p>
+            <p>Box Office: @(Model.Revenue.HasValue ? "$" + Model.Revenue.Value.ToString("N0") : "Unknown")</p>
+            <h3>Trailer</h3>
+            @foreach(var trailer in Model.Trailers)
+            {
+                @if (!string.IsNullOrEmpty(trailer.TrailerUrl))
+                {
+                    var embedUrl = trailer.TrailerUrl.Replace("watch?v=", "embed/");
+                    <div class="ratio ratio-16x9 mt-3">
+                        <iframe src="@embedUrl" allowfullscreen></iframe>
+                    </div>
+                }
+            }
+        </div>
+
+        <div class="col-12 col-md-8 col-lg-8 p-0 ps-5">
+            <h3 class="text-center">Movie Cast</h3>
+            <hr />
+            <div class="row">
+            @foreach(var cast in Model.Casts)
+            {
+                <div class="col-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-0">
+                        <img src="@cast.ProfilePath" alt="@cast.Name" class="card-img-top rounded">
+                        <div class="card-body p-2 text-center">
+                            <h6 class="card-title mb-1">@cast.Name</h6>
+                            <p class="text-muted small mb-0">@cast.Character</p>
+                        </div>
+                    </div>
+                </div>
+            }
+            </div>
+        </div>
+  </div>
+
+</div>
+

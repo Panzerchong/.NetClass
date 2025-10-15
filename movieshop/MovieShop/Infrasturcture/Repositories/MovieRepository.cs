@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,10 +18,10 @@ namespace Infrasturcture.Repositories
 
         }
 
-        public IEnumerable<Movie> Get30HighestGrossingMovies()
+        public async Task<IEnumerable<Movie>> Get30HighestGrossingMovies()
         {
             //select top 30 * from movies order by revenue desc
-            var movies=_dbContext.Movies.OrderByDescending(m => m.Revenue).Take(30).ToList();
+            var movies=await _dbContext.Movies.OrderByDescending(m => m.Revenue).Take(30).ToListAsync();
             return movies;
         }
 
@@ -29,12 +30,13 @@ namespace Infrasturcture.Repositories
             throw new NotImplementedException();
         }
 
-        public override Movie GetById(int id)
+        public async override Task<Movie> GetById(int id)
         {
             //var movie= _dbContext.Movies.FirstOrDefault(m => m.Id == id);
-            var movie=_dbContext.Movies.Include(m=>m.GenresOfMovie).ThenInclude(mg=>mg.Genre).Include(m=>m.Trailers).FirstOrDefault(m => m.Id == id);
-
-
+            //var movie=_dbContext.Movies.Include(m=>m.GenresOfMovie).ThenInclude(mg=>mg.Genre).Include(m=>m.Trailers).FirstOrDefault(m => m.Id == id);
+            var movie = await _dbContext.Movies.Include(m => m.GenresOfMovie).ThenInclude(mg => mg.Genre).Include(m => m.CastsOfMovie).ThenInclude(m => m.Cast).
+                Include(m => m.Trailers).FirstOrDefaultAsync(m => m.Id == id);
+            movie.Rating= Math.Round(await _dbContext.Reviews.Where(m => m.MovieId == id).AverageAsync(m => m.Rating),2);
             return movie;
         }
 

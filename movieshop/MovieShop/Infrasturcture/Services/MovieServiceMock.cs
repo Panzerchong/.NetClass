@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Infrasturcture.Services
 {
-    public class MovieServiceMock: IMovieService
+    public class MovieServiceMock//: IMovieService
     {
         public List<MovieCard> Get30HighestGrossingMovies()
         {

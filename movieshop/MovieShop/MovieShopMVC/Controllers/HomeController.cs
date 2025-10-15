@@ -20,7 +20,7 @@ namespace MovieShopMVC.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             //ViewBag.Title = "MovieShope Home Page Title";
             //ViewData["Title"] = "123";
@@ -34,7 +34,7 @@ namespace MovieShopMVC.Controllers
             //};
             //var movieService=new MovieService();
             //var movies = movieService.Get30HighestGrossingMovies();
-            var movies = _movieService.Get30HighestGrossingMovies();
+            var movies =await _movieService.Get30HighestGrossingMovies();
             return View(movies);
         }
 
