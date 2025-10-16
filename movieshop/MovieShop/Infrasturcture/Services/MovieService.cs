@@ -63,5 +63,15 @@ namespace Infrasturcture.Services
             }
             return movieDetail;
         }
+
+        public async Task<PageResultSet<MovieCard>> GetMoviesByGenre(int genreId, int pageSize = 30, int pageNumber = 1)
+        {
+            var pagedMovies = await _movieRepository.GetMoviesByGenre(genreId, pageSize, pageNumber);
+            var movieCards=new List<MovieCard>();
+
+            //批量添加数据AddRange
+            movieCards.AddRange(pagedMovies.Data.Select(m => new MovieCard { Id = m.Id, Title = m.Title, PosterUrl = m.PosterUrl }));
+            return new PageResultSet<MovieCard>(movieCards, pageNumber,pagedMovies.PageSize,pagedMovies.Count);
+        }
     }
 }

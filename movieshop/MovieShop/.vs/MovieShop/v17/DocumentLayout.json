@@ -3,116 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\models\\castmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\castmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\contracts\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\userinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\contracts\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\services\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\models\\moviedetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\moviedetailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\models\\trailermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\trailermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\crew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\crew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\moviecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\moviecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\moviecrew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\moviecrew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\moviegenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\moviegenre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\models\\moviecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\models\\moviecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\data\\movieshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\contracts\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\contracts\\repositories\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\services\\movieservicemock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\services\\movieservicemock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\applicationcore\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97F94AFA-4BDD-488D-A1B8-C6DBE7E777F2}|ApplicationCore\\ApplicationCore.csproj|solutionrelative:applicationcore\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\views\\shared\\_moviecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\shared\\_moviecard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\infrasturcture\\migrations\\20251009072126_editusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D095C43-D7A0-49A2-A4BC-9D2B0C350910}|Infrasturcture\\Infrasturcture.csproj|solutionrelative:infrasturcture\\migrations\\20251009072126_editusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|c:\\users\\panze\\.netclasshw\\movieshop\\movieshop\\movieshopmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0121F484-009F-4A75-B01E-9F278D31BBE8}|MovieShopMVC\\MovieShopMVC.csproj|solutionrelative:movieshopmvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,344 +50,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Movies\\Details.cshtml",
-              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Movies\\Details.cshtml",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Movies\\Details.cshtml",
-              "RelativeToolTip": "MovieShopMVC\\Views\\Movies\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T04:59:39.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "MovieGenre.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\MovieGenre.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\MovieGenre.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\MovieGenre.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\MovieGenre.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:00:34.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TrailerModel.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\TrailerModel.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Models\\TrailerModel.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\TrailerModel.cs",
-              "RelativeToolTip": "ApplicationCore\\Models\\TrailerModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T06:54:07.663Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IMovieService.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IMovieService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T03:55:56.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Repositories\\IRepository.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repositories\\IRepository.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Repositories\\IRepository.cs",
-              "RelativeToolTip": "ApplicationCore\\Contracts\\Repositories\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T20:52:09.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "Infrasturcture\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Repositories\\Repository.cs",
-              "RelativeToolTip": "Infrasturcture\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-08T22:43:53.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MovieRepository.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Repositories\\MovieRepository.cs",
-              "RelativeDocumentMoniker": "Infrasturcture\\Repositories\\MovieRepository.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Repositories\\MovieRepository.cs",
-              "RelativeToolTip": "Infrasturcture\\Repositories\\MovieRepository.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA3wCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T02:56:04.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MoviesController.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\MoviesController.cs",
-              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\MoviesController.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\MoviesController.cs",
-              "RelativeToolTip": "MovieShopMVC\\Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T04:56:22.793Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MovieShopDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Data\\MovieShopDbContext.cs",
-              "RelativeDocumentMoniker": "Infrasturcture\\Data\\MovieShopDbContext.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Data\\MovieShopDbContext.cs",
-              "RelativeToolTip": "Infrasturcture\\Data\\MovieShopDbContext.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T07:54:41.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MovieCard.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\MovieCard.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Models\\MovieCard.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\MovieCard.cs",
-              "RelativeToolTip": "ApplicationCore\\Models\\MovieCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T07:59:12.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CastModel.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\CastModel.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Models\\CastModel.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\CastModel.cs",
-              "RelativeToolTip": "ApplicationCore\\Models\\CastModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T06:52:30.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MovieShopMVC\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T04:38:53.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenreModel.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\GenreModel.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Models\\GenreModel.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\GenreModel.cs",
-              "RelativeToolTip": "ApplicationCore\\Models\\GenreModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Infrasturcture\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Infrasturcture\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T06:55:38.007Z",
+              "WhenOpened": "2025-10-16T07:01:35.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MovieService.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Services\\MovieService.cs",
-              "RelativeDocumentMoniker": "Infrasturcture\\Services\\MovieService.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Services\\MovieService.cs",
-              "RelativeToolTip": "Infrasturcture\\Services\\MovieService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBoAAAAqAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Program.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Program.cs",
+              "RelativeToolTip": "MovieShopMVC\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T03:56:19.886Z",
+              "WhenOpened": "2025-10-16T06:52:58.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MovieDetailModel.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\MovieDetailModel.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Models\\MovieDetailModel.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\MovieDetailModel.cs",
-              "RelativeToolTip": "ApplicationCore\\Models\\MovieDetailModel.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Services\\IAccountService.cs",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Services\\IAccountService.cs",
+              "RelativeToolTip": "ApplicationCore\\Contracts\\Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T06:48:57.714Z"
+              "WhenOpened": "2025-10-16T06:39:05.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\UserInfoModel.cs",
+              "RelativeDocumentMoniker": "ApplicationCore\\Models\\UserInfoModel.cs",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Models\\UserInfoModel.cs",
+              "RelativeToolTip": "ApplicationCore\\Models\\UserInfoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:38:14.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MovieShopMVC\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:28:46.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MovieShopMVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T06:25:21.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MovieShopMVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T06:23:41.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Review.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Review.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\Review.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Infrasturcture\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Services\\AccountService.cs",
+              "RelativeToolTip": "Infrasturcture\\Services\\AccountService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:17:16.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MovieCast.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\MovieCast.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\MovieCast.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\MovieCast.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\MovieCast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T07:59:56.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Cast.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Cast.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Cast.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Cast.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\Cast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:00:01.841Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Movie.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Movie.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Movie.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\Movie.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wB0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:00:53.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MovieCrew.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\MovieCrew.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\MovieCrew.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\MovieCrew.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\MovieCrew.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:00:32.873Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Crew.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Crew.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\Crew.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\Crew.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\Crew.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:00:49.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "IMovieRepository.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
-              "RelativeToolTip": "ApplicationCore\\Contracts\\Repositories\\IMovieRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T01:04:15.86Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "MovieShopMVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "MovieShopMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T06:47:44.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "MovieServiceMock.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Services\\MovieServiceMock.cs",
-              "RelativeDocumentMoniker": "Infrasturcture\\Services\\MovieServiceMock.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Services\\MovieServiceMock.cs",
-              "RelativeToolTip": "Infrasturcture\\Services\\MovieServiceMock.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T07:20:57.535Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\User.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\User.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T07:14:17.854Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\UserRole.cs",
-              "RelativeDocumentMoniker": "ApplicationCore\\Entities\\UserRole.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\ApplicationCore\\Entities\\UserRole.cs",
-              "RelativeToolTip": "ApplicationCore\\Entities\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T07:18:02.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "20251009072126_EditUserTable.cs",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Migrations\\20251009072126_EditUserTable.cs",
-              "RelativeDocumentMoniker": "Infrasturcture\\Migrations\\20251009072126_EditUserTable.cs",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\Infrasturcture\\Migrations\\20251009072126_EditUserTable.cs",
-              "RelativeToolTip": "Infrasturcture\\Migrations\\20251009072126_EditUserTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T07:21:26.448Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_MovieCard.cshtml",
-              "DocumentMoniker": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Shared\\_MovieCard.cshtml",
-              "RelativeDocumentMoniker": "MovieShopMVC\\Views\\Shared\\_MovieCard.cshtml",
-              "ToolTip": "C:\\Users\\panze\\.NetClassHW\\movieshop\\MovieShop\\MovieShopMVC\\Views\\Shared\\_MovieCard.cshtml",
-              "RelativeToolTip": "MovieShopMVC\\Views\\Shared\\_MovieCard.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T05:11:45.361Z"
+              "WhenOpened": "2025-10-16T03:52:54.035Z",
+              "EditorCaption": ""
             }
           ]
         }

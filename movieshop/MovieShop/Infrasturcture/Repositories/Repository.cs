@@ -1,5 +1,6 @@
 ﻿using ApplicationCore.Contracts.Repositories;
 using Infrasturcture.Data;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,9 @@ namespace Infrasturcture.Repositories
         }
         public async virtual Task<T> Add(T entity)
         {
-            throw new NotImplementedException();
+            _dbContext.Set<T>().Add(entity);//保存在内存里，没有保存到数据库
+            await _dbContext.SaveChangesAsync();
+            return entity;
         }
 
         public async virtual Task<T> Delete(T entity)
@@ -27,12 +30,12 @@ namespace Infrasturcture.Repositories
 
         public async virtual Task<IEnumerable<T>> GetAll()
         {
-            throw new NotImplementedException();
+            return await _dbContext.Set<T>().ToListAsync();
         }
 
         public async virtual Task<T> GetById(int id)
         {
-            throw new NotImplementedException();
+            return await _dbContext.Set<T>().FindAsync(id);
         }
 
         public virtual Task<T> Update(T entity)
