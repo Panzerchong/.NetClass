@@ -37,6 +37,11 @@ namespace Infrasturcture.Repositories
             //var movie=_dbContext.Movies.Include(m=>m.GenresOfMovie).ThenInclude(mg=>mg.Genre).Include(m=>m.Trailers).FirstOrDefault(m => m.Id == id);
             var movie = await _dbContext.Movies.Include(m => m.GenresOfMovie).ThenInclude(mg => mg.Genre).Include(m => m.CastsOfMovie).ThenInclude(m => m.Cast).
                 Include(m => m.Trailers).FirstOrDefaultAsync(m => m.Id == id);
+            if (movie == null)
+            {
+                return null;
+            }
+
             movie.Rating= Math.Round(await _dbContext.Reviews.Where(m => m.MovieId == id).AverageAsync(m => m.Rating),2);
             return movie;
         }

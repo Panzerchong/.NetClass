@@ -26,12 +26,6 @@ builder.Services.AddDbContext<MovieShopDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MovieShopDbConnection"));
 });
 
-
-builder.Services.AddDbContext<MovieShopDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("MovieShopDbConnection"));
-});
-
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(options =>
     {
         options.Cookie.Name="MovieShopAuthCookie";
