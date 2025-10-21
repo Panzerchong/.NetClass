@@ -10,3 +10,4 @@ C:\Users\panze\.NetClassHW\movieshop\MovieShop\ApplicationCore\obj\Debug\net8.0\
 C:\Users\panze\.NetClassHW\movieshop\MovieShop\ApplicationCore\obj\Debug\net8.0\refint\ApplicationCore.dll
 C:\Users\panze\.NetClassHW\movieshop\MovieShop\ApplicationCore\obj\Debug\net8.0\ApplicationCore.pdb
 C:\Users\panze\.NetClassHW\movieshop\MovieShop\ApplicationCore\obj\Debug\net8.0\ref\ApplicationCore.dll
+C:\Users\panze\.NetClassHW\movieshop\MovieShop\ApplicationCore\obj\Debug\net8.0\ApplicationCore.csproj.AssemblyReference.cache

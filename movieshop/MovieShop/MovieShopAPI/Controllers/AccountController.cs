@@ -2,6 +2,10 @@
 using ApplicationCore.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace MovieShopAPI.Controllers
 {
@@ -10,9 +14,11 @@ namespace MovieShopAPI.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAccountService _accountService;
-        public AccountController(IAccountService accountService)
+        private readonly IConfiguration _configuration;
+        public AccountController(IAccountService accountService, IConfiguration configuration)
         {
             _accountService = accountService;
+            _configuration = configuration;
         }
 
         [HttpPost]
@@ -20,8 +26,41 @@ namespace MovieShopAPI.Controllers
         public async Task<IActionResult> Login(LoginModel model)
         {
             var user = await _accountService.ValidateUser(model.Email, model.Password);
+            //JWT token generation
+            var claims=new List<Claim>
+            {
+                new Claim(ClaimTypes.NameIdentifier,user.Id.ToString()),
+                new Claim(ClaimTypes.GivenName,user.FirstName),//given_name
+                new Claim(ClaimTypes.Surname,user.LastName),
+                new Claim(ClaimTypes.Email,user.Email),
+                new Claim("Language","English") // custom claim language is key, English is value
+            };
+            var claimsIdentity=new ClaimsIdentity(claims);
 
-            return Ok(user);
+            var privateKey= _configuration["privateKey"];
+            var expirationTime=_configuration.GetValue<int>("expirationHours");
+            var issuer=_configuration["issuer"];
+            var audience=_configuration["audience"];
+
+            var secretKey=new SymmetricSecurityKey(Encoding.UTF8.GetBytes(privateKey));
+
+            var credentials=new SigningCredentials(secretKey,SecurityAlgorithms.HmacSha256);
+
+            var jmtExpirationTime=DateTime.UtcNow.AddHours(expirationTime);
+
+            var tokenDescriptor=new SecurityTokenDescriptor
+            {
+                SigningCredentials = credentials,
+                Subject =claimsIdentity,
+                Issuer = issuer,
+                Audience = audience,
+                Expires = jmtExpirationTime
+            };
+
+            var handler=new JwtSecurityTokenHandler();
+            var jwtToken=handler.CreateToken(tokenDescriptor);
+
+            return Ok(new{token=handler.WriteToken(jwtToken)});
         }
 
         [HttpPost]

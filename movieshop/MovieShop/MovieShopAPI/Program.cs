@@ -3,7 +3,10 @@ using ApplicationCore.Contracts.Services;
 using Infrasturcture.Data;
 using Infrasturcture.Repositories;
 using Infrasturcture.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +31,22 @@ builder.Services.AddDbContext<MovieShopDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("MovieShopDbConnection"));
 });
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
+    options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,//检查token签名部分防止篡改
+            //创建secretkey
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["privateKey"])),
+            ValidateIssuer = false,
+            ValidateAudience = false
+        };
+    }
+);
+
+
 
 
 var app = builder.Build();
