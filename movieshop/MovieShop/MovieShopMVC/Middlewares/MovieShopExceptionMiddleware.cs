@@ -9,11 +9,18 @@ namespace MovieShopMVC.Middlewares
     {
         private readonly RequestDelegate _next;
         private readonly ILogger<MovieShopExceptionMiddleware> _logger;
+        private readonly string _logFolderPath;
 
         public MovieShopExceptionMiddleware(RequestDelegate next, ILogger<MovieShopExceptionMiddleware> logger)
         {
             _next = next;
             _logger = logger;
+
+            _logFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "Log");
+            if (!Directory.Exists(_logFolderPath))
+            {
+                Directory.CreateDirectory(_logFolderPath);
+            }
         }
 
         public async Task Invoke(HttpContext httpContext)
@@ -35,6 +42,10 @@ namespace MovieShopMVC.Middlewares
                     user=httpContext.User.Identity.IsAuthenticated? httpContext.User.Identity.Name:null
                     //Email,userId, QueryString, Headers,etc
                 };
+
+                _logger.LogError(ex,
+                   "Unhandled exception occurred {@ExceptionDetails}",
+                   exceptionDetails);
             }
             httpContext.Response.Redirect("/Home/Error");
             return;
