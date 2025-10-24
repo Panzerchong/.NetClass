@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { Home } from './home/home';
+import { HttpClientModule } from '@angular/common/http';
 
 //装饰器，c# attribute
 @NgModule({
@@ -14,7 +15,8 @@ import { Home } from './home/home';
   //把其他模块，对应的功能，引入到当前模块
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   //配置依赖注入，注册服务
   providers: [
