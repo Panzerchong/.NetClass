@@ -17,7 +17,7 @@ export class Home {
     //加上subscribe之后才会执行请求，因为是lazy loading
     this.movieService.getTopGrossingMovies().subscribe(m=>{
       this.movies=m;
-      console.log("Movies received: ",this.movies);
+      console.table(this.movies);
     });
 
   }

@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing-module';
 import { App } from './app';
 import { Home } from './home/home';
 import { HttpClientModule } from '@angular/common/http';
+import { SharedModule } from './shared/shared-module';
 
 //装饰器，c# attribute
 @NgModule({
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    SharedModule
   ],
   //配置依赖注入，注册服务
   providers: [
