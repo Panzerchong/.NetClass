@@ -6,6 +6,7 @@ import { App } from './app';
 import { Home } from './home/home';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './shared/shared-module';
+import { CoreModule } from './core/core-module';
 
 //装饰器，c# attribute
 @NgModule({
@@ -18,7 +19,8 @@ import { SharedModule } from './shared/shared-module';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    SharedModule
+    SharedModule,
+    CoreModule
   ],
   //配置依赖注入，注册服务
   providers: [
